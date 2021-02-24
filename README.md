@@ -42,7 +42,9 @@ list below, you can see what dependency it has.
 ## Status
 
 I'm currently working on this plugin. So, right now, only the languages servers
-with a check mark is currently supported.
+with a check mark is currently supported. `Windows` is not supported because I
+can't test using it. If you interested in add windows supported, please let me
+know.
 
 - ❌ als
 - ❌ angularls
@@ -111,3 +113,10 @@ with a check mark is currently supported.
 - ❌ vuels `(npm)`
 - ❌ yamlls `(npm)`
 - ❌ zls
+
+## Notes to myself
+
+- [ ] (!) Be sure that all language servers installs correctly.
+- [ ] (!) Implement some way to install the language servers without the need of the global install and scope everything inside of this plugin folder to avoid messing with the user's global install.
+- [ ] (!) Add tests.
+- [ ] (?) Lock version from language servers that has been tested.
